@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>رستوران ایکس</title>
+  <meta name="title" content="Grilli - Amazing & Delicious Food">
+  <meta name="description" content="This is a Restaurant html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body dir="rtl" id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">ایکس</p>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          شهر رستوران ها خیابان خوشمزه
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">هر روز از ساعت 8 صبح تا 10 شب </span>
+      </div>
+
+      <a href="tel:+989134398990" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">09134938990</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:ali@xtron.sbs" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">ali@xtron.sbs</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+<!--      <a href="#" class="logo">
+        <img src="" width="160" height="50" alt="Grilli - Home">
+      </a>
+-->
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">خانه</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">منو</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">درباره ما</span>
+            </a>
+          </li>
+
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">تماس با ما</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">به ما سر برنین</p>
+
+          <address class="body-4">
+            خیابان کد <br>
+            
+          </address>
+
+          <p class="body-4 navbar-text">از ساعت 8 تا 12 شب</p>
+
+          <a href="mailto:ali@xtron.sbs" class="body-4 sidebar-link">ali@xtron.sbs</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">درخاست رزرو</p>
+
+          <a href="tel:+989134398990" class="body-1 contact-number hover-underline">
+            09134398990
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="#" class="btn btn-secondary">
+        <span class="text text-1">پیدا کردن میز</span>
+
+        <span class="text text-2" aria-hidden="true">پیدا کردن میز</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-1.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">X Restaurant</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              رستوران ایکس <br>
+              با غذا های خوشمزه
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              رستوران ایکس با غذا های خوشمزه
+            </p>
+
+            <a href="#menu" class="btn btn-primary slider-reveal">
+              <span class="text text-1">دیدن منو</span>
+
+              <span class="text text-2" aria-hidden="true">دیدن منو</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-2.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">X Restaurant</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              رستوران ایکس <br>
+              با غذا های خوشمزه
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              رستوران ایکس با غذا های خوشمزه
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">دیدن منو</span>
+
+              <span class="text text-2" aria-hidden="true">دیدن منو</span>
+            </a>
+
+          </li>
+
+          
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        <a href="#" class="hero-btn has-after">
+          <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
+
+          <span class="label-2 text-center span">رزرو کردن میز</span>
+        </a>
+
+      </section>
+
+
+<!-- 
+        - #MENU
+      -->
+
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container">
+
+          <p class="section-subtitle text-center label-2"></p>
+
+          <h2 class="headline-1 section-title text-center">منو</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-1.png" width="100" height="100" loading="lazy" alt="سالاد یونانی"
+                    class="img-cover">
+                </figure>
+              
+                <div>
+              
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">سالاد یونانی</a>
+                    </h3>
+              
+                    <span class="badge label-1">فصلی</span>
+              
+                    <span class="span title-2">25.50 تومان</span>
+                  </div>
+              
+                  <p class="card-text label-1">
+                    گوجه فرنگی، فلفل سبز، خیار، پیاز، زیتون و پنیر فتا.
+                  </p>
+              
+                </div>
+              
+              </div>
+              </li>
+              
+              <li>
+                <div class="menu-card hover:card">
+              
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="./assets/images/menu-2.png" width="100" height="100" loading="lazy" alt="لازانیا"
+                      class="img-cover">
+                  </figure>
+              
+                  <div>
+              
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">لازانیا</a>
+                      </h3>
+              
+                      <span class="span title-2">40.00 تومان</span>
+                    </div>
+              
+                    <p class="card-text label-1">
+                      سبزیجات، پنیر، گوشت چرخ کرده، سس گوجه فرنگی، ادویه و спеزیجات
+                    </p>
+              
+                  </div>
+              
+                </div>
+              </li>
+              
+              <li>
+                <div class="menu-card hover:card">
+              
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="./assets/images/menu-3.png" width="100" height="100" loading="lazy" alt="کدو حلوایی"
+                      class="img-cover">
+                  </figure>
+              
+                  <div>
+              
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">کدو حلوایی</a>
+                      </h3>
+              
+                      <span class="span title-2">10.00 تومان</span>
+                    </div>
+              
+                    <p class="card-text label-1">
+                     .
+                    </p>
+              
+                  </div>
+              
+                </div>
+              </li>
+              
+              <li>
+                <div class="menu-card hover:card">
+              
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="./assets/images/menu-4.png" width="100" height="100" loading="lazy" alt="توکوسن واگو"
+                      class="img-cover">
+                  </figure>
+              
+                  <div>
+              
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">توکوسن واگو</a>
+                      </h3>
+              
+                      <span class="badge label-1">جدید</span>
+              
+                      <span class="span title-2">39.00 تومان</span>
+                    </div>
+              
+                    <p class="card-text label-1">
+                      سبزیجات، پنیر، گوشت چرخ کرده، سس گوجه فرنگی، ادویه و спеزیجات.
+                    </p>
+              
+                  </div>
+              
+                </div>
+              </li>
+              
+              <li>
+                <div class="menu-card hover:card">
+              
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="./assets/images/menu-5.png" width="100" height="100" loading="lazy" alt="الیواس رلناس"
+                      class="img-cover">
+                  </figure>
+              
+                  <div>
+              
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">الیواس رلناس</a>
+                      </h3>
+              
+                      <span class="span title-2">25.00 تومان</span>
+                    </div>
+              
+                    <p class="card-text label-1">
+                      آووکادو با گوشت خرچنگ، پیاز قرمز، سالاد خرچ
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-6.png" width="100" height="100" loading="lazy" alt="Opu Fish"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">ماهی اپو</a>
+                    </h3>
+            
+                    <span class="span title-2">49.00 تومان</span>
+                  </div>
+            
+                  <p class="card-text label-1">
+                    سبزیجات، پنیر، گوشت چرخ کرده، سس گوجه فرنگی، ادویه و спеزیجات
+                  </p>
+            
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <p class="menu-text text-center" style="font-size: 24px;">
+            از ساعت <span class="span" style="font-size: 24px;"> 7 صبح</span> تا  <span class="span" style="font-size: 24px;"> 11 شب </span>
+          </p>
+
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">دیدن منو</span>
+
+            <span class="text text-2" aria-hidden="true">دیدن منو</span>
+          </a>
+
+          <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+          <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-3 move-anim">
+
+        </div>
+      </section>
+
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service bg-black-10 text-center" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle label-2"></p>
+
+          <h2 class="headline-1 section-title">ما بهتون پیشنهاد میدیم</h2>
+
+          <p class="section-text">
+          
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-1.jpg" width="285" height="336" loading="lazy" alt="Breakfast"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">صبحانه</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">دیدن منو</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-2.jpg" width="285" height="336" loading="lazy" alt="Appetizers"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">پیش غذا</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">دیدن منو</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-3.jpg" width="285" height="336" loading="lazy" alt="Drinks"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">نوشیدنی</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">دیدن منو</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+            class="shape shape-1 move-anim">
+          <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">داستان ما</p>
+
+            <h2 class="headline-1 section-title">مجموعه غذایی ایکس</h2>
+
+            <p class="section-text">
+              ما سعی کردیم تا فضایی دلنشین و غذایی باب میل شما درست کنیم تا شما لذت ببرین.
+            </p>
+
+
+
+            
+
+
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/about-banner.jpg" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="./assets/images/about-abs-image.jpg" width="285" height="285" loading="lazy" alt=""
+                class="w-100">
+            </div>
+
+
+
+          </figure>
+
+          <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+
+
+
+
+
+      
+
+
+
+
+      
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testi text-center has-bg-image"
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #RESERVATION
+      -->
+
+      <section class="reservation">
+        
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features text-center" aria-label="features">
+        <div class="container">
+
+          <p class="section-subtitle label-2">چرا مارو انتخاب کنید </p>
+
+          <h2 class="headline-1 section-title">قابلیت هایی که داریم</h2>
+
+          <ul class="grid-list">
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-1.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">غذا هایی خوشمزه</h3>
+
+                <p class="label-1 card-text">ما همیشه سعی داشتیم تا با کیفیت ترین غذا هارو داشته باشیم</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-2.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">مکانی خاص</h3>
+
+                <p class="label-1 card-text">مکانی خاص و خوب برای شما و خانواده شما</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-3.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">اشپز های حرفه ای</h3>
+
+                <p class="label-1 card-text">اشپز هایی کارکشته و حرفه ای</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-4.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">میزبان مهنانی های شما</h3>
+
+                <p class="label-1 card-text">فضایی برای مهمانی و جلسات</p>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-7.png" width="208" height="178" loading="lazy" alt="shape"
+            class="shape shape-1">
+
+          <img src="./assets/images/shape-8.png" width="120" height="115" loading="lazy" alt="shape"
+            class="shape shape-2">
+
+        </div>
+      </section>
+
+
+
+
+
+    
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/footer-bg.jpg')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+
+
+          <address class="body-4">
+            خیابان کد
+          </address>
+
+          <a href="mailto:ali@xtron.sbs" class="body-4 contact-link">ali@xtron.sbs</a>
+
+          <a href="tel:+989134398990" class="body-4 contact-link">درخاست رزرو : 09134398990</a>
+
+          <p class="body-4">
+            از ساعت 8 صبح تا 11 شب
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          
+
+
+          
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Menus</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Our Chefs</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Contact</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Google Map</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2004 رستوران ایکس ساخته شده توسط علی فراست <a href="https://github.com/alixtron0"
+            target="_blank" class="link">Ali Farasat</a>
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
